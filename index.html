@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="navbar navbar-expand-lg bg-dark">
+            <div class="container-fluid">
+                <a href="#" class="navbar-brand ">Maxcopy</a>
+                <button type="button" class="navbar-toggler bg-white me-3 position-relative left-0" data-bs-toggle="collapse"
+                    data-bs-target="#menu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <nav class="collapse navbar-collapse justify-content-end p-2" id="menu">
+                    <ul class="navbar-nav nav-pills">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#inicio">Mais vistos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#romance">Romance</a>
+                        </li>
+                        <li class="nav-item dropdow position-relative ">
+                            <a class="nav-link dropdown-toggle " href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">Entra</a>
+                            <ul class="dropdown-menu bg-dark position:absolute p-10">
+                                <li><a class="dropdown-item" href="#">Login</a></li>
+                                <li><a class="dropdown-item" href="#">Registrar</a></li>
+                                <li><a class="dropdown-item" href="#">Saber mais</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <section>
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div data-bs-interval="4000" class="carousel-item active">
+                    <img src="./img/1.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Quem ira derrotar o Mozan?</h5>
+                        <p>Quem acabarar com todos os onis?</p>
+                    </div>
+                </div>
+                <div data-bs-interval="4000" class="carousel-item">
+                    <img src="./img/2.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Eu serei o rei mago!</h5>
+                        <p>acompanhe a trajetória do talvez futuro rei mago.</p>
+                    </div>
+                </div>
+                <div data-bs-interval="4000" class="carousel-item">
+                    <img src="./img/4.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Eu serei o rei dos pirataaassss</h5>
+                        <p>Sera?</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+
+    <section id="inicio" class="bg-dark secao-1">
+        <div class="container">
+            <div class="row">
+                <h2>Mais vistos</h2>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="card text-bg-dark">
+                        <img src="https://i.pinimg.com/564x/46/9b/18/469b18ca46636727a293b55a6373117b.jpg">
+                        <div class=" card-img-overlay">
+                            <h5 class="hide card-title text-center">Jujutsu Kaisen</h5>
+                            <p class="hide card-text">Assista agora a Jujutsu Kaisen, um dos animes mais aclamados dos
+                                últimos tempos! Acompanhe a jornada de Yuji Itadori, um estudante que, ao tentar salvar
+                                seus amigos de uma maldição poderosa, acaba se envolvendo no perigoso mundo dos
+                                feiticeiros jujutsu. Com animações de tirar o fôlego e uma história envolvente, Jujutsu
+                                Kaisen promete muita ação, mistério e batalhas épicas. Não perca nenhum episódio</p>
+                            <a href="#" class="btn btn-warning hide">Assistir já!</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="card text-bg-dark">
+                        <img src="https://i.pinimg.com/564x/e0/e6/8c/e0e68cad6ebb2ed8f40cd104b0ed4f15.jpg">
+                        <div class=" card-img-overlay">
+                            <h5 class="hide card-title text-center">Demon slayer</h5>
+                            <p class="hide card-text">Mergulhe na emocionante jornada de Tanjiro Kamado em Demon Slayer!
+                                Após sua família ser atacada por demônios, Tanjiro se torna um matador de demônios para
+                                vingar seus entes queridos e salvar sua irmã Nezuko. Com animações espetaculares e lutas
+                                épicas, Demon Slayer é um sucesso imperdível.</p>
+                            <a href="#" class="btn btn-warning hide">Assistir já!</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="card text-bg-dark">
+                        <img src="https://i.pinimg.com/564x/86/b9/8e/86b98e631a28207ad97fed1d09382817.jpg">
+                        <div class=" card-img-overlay">
+                            <h5 class="hide card-title text-center">Frieren</h5>
+                            <p class="hide card-text"> Descubra a tocante história de Frieren! Após a derrota do Rei
+                                Demônio, a elfa maga Frieren embarca em uma jornada para entender os sentimentos humanos
+                                e honrar seus antigos companheiros. Uma aventura emocionante e cheia de reflexões sobre
+                                o tempo e a amizade.</p>
+                            <a href="#" class="btn btn-warning hide">Assistir já!</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="card text-bg-dark">
+                        <img src="https://i.pinimg.com/564x/9f/17/c7/9f17c7a60792404764635da9fdac07ae.jpg">
+                        <div class=" card-img-overlay">
+                            <h5 class="hide card-title text-center">Konosuba</h5>
+                            <p class="hide card-text">Prepare-se para rir com Konosuba! Acompanhe Kazuma Satou, um
+                                adolescente reencarnado em um mundo de fantasia, onde se junta a um grupo de
+                                aventureiros inusitados: a deusa inútil Aqua, a maga obcecada por explosões Megumin e a
+                                cruzada masoquista Darkness. Com muitas trapalhadas e situações hilárias, Konosuba é uma
+                                comédia que vai te conquistar.</p>
+                            <a href="#" class="btn btn-warning hide">Assistir já!</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="card text-bg-dark">
+                        <img src="https://i.pinimg.com/736x/89/21/c2/8921c2fc482d27cbb789d67313a7d5f2.jpg">
+                        <div class=" card-img-overlay">
+                            <h5 class="hide card-title text-center">SPYxFAMILY</h5>
+                            <p class="hide card-text"> Entre no mundo de espionagem e família em Spy x Family! O espião
+                                Twilight precisa formar uma família falsa para completar uma missão, mas acaba adotando
+                                uma filha telepata e casando com uma assassina. Com muita ação e momentos divertidos,
+                                esta série é imperdível.</p>
+                            <a href="#" class="btn btn-warning hide">Assistir já!</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="card text-bg-dark">
+                        <img src="https://i.pinimg.com/564x/23/8f/91/238f91e72e5ca113937d6801a35d50ff.jpg">
+                        <div class=" card-img-overlay">
+                            <h5 class="hide card-title text-center">Akame ga kill</h5>
+                            <p class="hide card-text">Viva a intensa ação de Akame ga Kill! Siga Tatsumi, um jovem
+                                guerreiro que se junta ao grupo de assassinos Night Raid para derrubar um império
+                                corrupto. Com batalhas ferozes e um enredo emocionante, este anime é uma verdadeira
+                                montanha-russa de emoções.</p>
+                            <a href="#" class="btn btn-warning hide">Assistir já!</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="bg-dark secao-2">
+        <div class="container" style="position: relative;">
+            <img src="./img/0f7bc3388a1e869a7c87f9be7cd6a6a6-removebg-preview.png" alt="">
+        </div>
+    </section>
+    <section id="romance" class="bg-dark">
+        <div class="container">
+            <h2>Romance</h2>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="card text-bg-dark">
+                        <img src="https://i.pinimg.com/564x/1a/5e/6c/1a5e6c8227806c7c0e903b0286e6437b.jpg">
+                        <div class=" card-img-overlay">
+                            <h5 class="hide card-title text-center">Yubisaki to Renren</h5>
+                            <p class="hide card-text"> Emocione-se com Yubisaki to Renren! Esta é a história de amor
+                                entre um estudante universitário e uma jovem surda, que se conhecem através da linguagem
+                                de sinais e desenvolvem uma conexão profunda. Um romance doce e inspirador que vai tocar
+                                seu coração.</p>
+                            <a href="#" class="btn btn-warning hide">Assistir já!</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="card text-bg-dark">
+                        <img src="https://i.pinimg.com/564x/86/62/4b/86624b5cec4c124d661792faad4b4e1b.jpg">
+                        <div class=" card-img-overlay">
+                            <h5 class="hide card-title text-center">Horimiya</h5>
+                            <p class="hide card-text"> Acompanhe a bela história de Horimiya! Conheça Hori e Miyamura,
+                                dois estudantes do ensino médio com vidas secretas que se aproximam e descobrem o
+                                verdadeiro eu um do outro. Uma comédia romântica cativante e cheia de momentos fofos.
+                            </p>
+                            <a href="#" class="btn btn-warning hide">Assistir já!</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="card text-bg-dark">
+                        <img src="https://i.pinimg.com/564x/3a/53/c6/3a53c69dac82c16555a3837c797a6071.jpg">
+                        <div class=" card-img-overlay">
+                            <h5 class="hide card-title text-center">Tomo-chan</h5>
+                            <p class="hide card-text"> Ria e se divirta com Tomo-chan! Tomo é uma garota enérgica que
+                                deseja que seu amigo de infância, Jun, a veja como uma garota. Entre confusões e
+                                momentos engraçados, essa comédia romântica vai te conquistar.</p>
+                            <a href="#" class="btn btn-warning hide">Assistir já!</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="card text-bg-dark">
+                        <img src="https://i.pinimg.com/564x/b1/30/dd/b130dd0e4635ab85a036e54ab2d0a4f5.jpg">
+                        <div class=" card-img-overlay">
+                            <h5 class="hide card-title text-center">Darling</h5>
+                            <p class="hide card-text">Mergulhe na ação futurista de Darling in the Franxx! Em um mundo
+                                pós-apocalíptico, jovens pilotos controlam mechas gigantes para proteger a humanidade.
+                                Siga Hiro e Zero Two em sua luta pela sobrevivência e descobertas emocionantes.</p>
+                            <a href="#" class="btn btn-warning hide">Assistir já!</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="card text-bg-dark">
+                        <img src="https://i.pinimg.com/564x/dc/4d/82/dc4d82df6ec7a78a9b39ab5a8466f699.jpg">
+                        <div class=" card-img-overlay">
+                            <h5 class="hide card-title text-center">Charlotte</h5>
+                            <p class="hide card-text"> Explore o sobrenatural com Charlotte! Em um mundo onde
+                                adolescentes desenvolvem habilidades especiais, Yuu Otosaka é levado a uma academia
+                                especial para aqueles com poderes. Uma história emocionante e cheia de surpresas.</p>
+                            <a href="#" class="btn btn-warning hide">Assistir já!</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="card text-bg-dark">
+                        <img src="https://i.pinimg.com/564x/38/69/c9/3869c927927afc42171d409a9ee5dd17.jpg">
+                        <div class=" card-img-overlay">
+                            <h5 class="hide card-title text-center">Re:ZERO</h5>
+                            <p class="hide card-text"> Envolva-se na incrível jornada de Re:Zero! Subaru Natsuki é
+                                transportado para um mundo de fantasia onde descobre que tem o poder de voltar no tempo
+                                sempre que morre. Com desafios mortais e mistérios, este anime é imperdível.</p>
+                            <a href="#" class="btn btn-warning hide">Assistir já!</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer bg-dark text-white py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h5>Sobre Nós</h5>
+                    <p>
+                        A Maxcopy é o destino definitivo para todos os fãs de anime e mangá. Oferecemos uma vasta
+                        seleção de séries e filmes, trazendo o melhor do Japão para você.
+                    </p>
+                </div>
+                <div class="col-md-4">
+                    <h5>Navegação</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-white">Início</a></li>
+                        <li><a href="#inicio" class="text-white">Mais vistos</a></li>
+                        <li><a href="#romance" class="text-white">Romoance</a></li>
+                        <li><a href="#" class="text-white">Contato</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h5>Siga-nos</h5>
+                    <div class="d-flex">
+                        <a href="#" class="text-white me-3"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="text-white me-3"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="text-white me-3"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="text-white"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-3">
+                <div class="col text-center">
+                    <p class="mb-0">&copy; 2024 Maxcopy. Todos os direitos reservados.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="./bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
